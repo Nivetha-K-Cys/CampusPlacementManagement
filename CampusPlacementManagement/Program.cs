@@ -1,7 +1,9 @@
 using CampusPlacementManagement.Data;
 using CampusPlacementManagement.Models;
+using CampusPlacementManagement.Repositories;
 using CampusPlacementManagement.Repositories.Implementations;
 using CampusPlacementManagement.Repositories.Interfaces;
+using CampusPlacementManagement.Services;
 using CampusPlacementManagement.Services.Implementations;
 using CampusPlacementManagement.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
@@ -26,6 +28,12 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 // 4. Register Repository and Service Dependency Injection (DI)
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
+builder.Services.AddScoped<ICompanyService, CompanyService>();
+
+builder.Services.AddScoped<IJobPostingRepository, JobPostingRepository>();
+builder.Services.AddScoped<IJobPostingService, JobPostingService>();
 
 var app = builder.Build();
 
