@@ -1,11 +1,3 @@
-C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.csproj.AssemblyReference.cache
-C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.AssemblyInfoInputs.cache
-C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.AssemblyInfo.cs
-C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.csproj.CoreCompileInputs.cache
-C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\appsettings.json
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\CampusPlacementManagement.staticwebassets.endpoints.json
@@ -17,9 +9,11 @@ C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Azure.Identity.dll
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Humanizer.dll
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Microsoft.Build.Framework.dll
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -152,6 +146,15 @@ C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.csproj.AssemblyReference.cache
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.AssemblyInfoInputs.cache
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.AssemblyInfo.cs
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.csproj.CoreCompileInputs.cache
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.sourcelink.json
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -167,4 +170,4 @@ C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.pdb
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.genruntimeconfig.cache
 C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\ref\CampusPlacementManagement.dll
-C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\CampusPlacementManagement.sourcelink.json
+C:\Users\niven\source\repos\CampusPlacementManagement\CampusPlacementManagement\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
