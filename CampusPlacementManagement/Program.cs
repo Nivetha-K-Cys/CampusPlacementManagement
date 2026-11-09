@@ -1,4 +1,5 @@
 using CampusPlacementManagement.Data;
+using CampusPlacementManagement.Middlewares;
 using CampusPlacementManagement.Models;
 using CampusPlacementManagement.Repositories;
 using CampusPlacementManagement.Repositories.Implementations;
@@ -80,7 +81,13 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+
+
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAngular");
 
 app.UseAuthentication();
 app.UseAuthorization();

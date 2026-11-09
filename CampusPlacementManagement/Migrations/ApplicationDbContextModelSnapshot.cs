@@ -298,6 +298,51 @@ namespace CampusPlacementManagement.Migrations
                     b.ToTable("PlacementOfficers");
                 });
 
+            modelBuilder.Entity("CampusPlacementManagement.Models.Student", b =>
+                {
+                    b.Property<int>("StudentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentId"));
+
+                    b.Property<double>("CGPA")
+                        .HasColumnType("float");
+
+                    b.Property<int>("CollegeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Department")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("GraduationYear")
+                        .HasColumnType("int");
+
+                    b.Property<string>("RollNumber")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("StudentId");
+
+                    b.HasIndex("CollegeId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Students");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -462,6 +507,25 @@ namespace CampusPlacementManagement.Migrations
                 });
 
             modelBuilder.Entity("CampusPlacementManagement.Models.PlacementOfficer", b =>
+                {
+                    b.HasOne("CampusPlacementManagement.Models.College", "College")
+                        .WithMany()
+                        .HasForeignKey("CollegeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CampusPlacementManagement.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("College");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("CampusPlacementManagement.Models.Student", b =>
                 {
                     b.HasOne("CampusPlacementManagement.Models.College", "College")
                         .WithMany()
