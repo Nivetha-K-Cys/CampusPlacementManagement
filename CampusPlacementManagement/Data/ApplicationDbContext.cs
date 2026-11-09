@@ -12,5 +12,8 @@ namespace CampusPlacementManagement.Data
         public DbSet<JobPosting> JobPostings { get; set; }
 
         public DbSet<JobApplication> JobApplications { get; set; }
+
+        public DbSet<College> Colleges { get; set; }
+        public DbSet<PlacementOfficer> PlacementOfficers { get; set; }
     }
 }

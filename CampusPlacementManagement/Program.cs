@@ -40,6 +40,14 @@ builder.Services.AddScoped<IJobApplicationService, JobApplicationService>();
 
 builder.Services.AddScoped<ITokenService, TokenService>();
 
+// College Module DI
+builder.Services.AddScoped<ICollegeRepository, CollegeRepository>();
+builder.Services.AddScoped<ICollegeService, CollegeService>();
+
+// Placement Officer Module DI
+builder.Services.AddScoped<IPlacementOfficerRepository, PlacementOfficerRepository>();
+builder.Services.AddScoped<IPlacementOfficerService, PlacementOfficerService>();
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme;
