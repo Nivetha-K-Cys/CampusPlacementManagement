@@ -52,6 +52,9 @@ builder.Services.AddScoped<IPlacementOfficerService, PlacementOfficerService>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<IStudentService, StudentService>();
 
+builder.Services.AddScoped<ICompanyHRRepository, CompanyHRRepository>();
+builder.Services.AddScoped<ICompanyHRService, CompanyHRService>();
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme;

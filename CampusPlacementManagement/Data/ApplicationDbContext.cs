@@ -17,5 +17,7 @@ namespace CampusPlacementManagement.Data
         public DbSet<PlacementOfficer> PlacementOfficers { get; set; }
 
         public DbSet<Student> Students { get; set; }
+
+        public DbSet<CompanyHR> CompanyHRs { get; set; }
     }
 }
