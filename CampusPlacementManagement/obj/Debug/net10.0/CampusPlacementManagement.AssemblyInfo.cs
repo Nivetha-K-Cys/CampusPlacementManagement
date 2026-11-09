@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampusPlacementManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4515b5f8ed12678380285095b334a12ddfb3e195")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f824f83e63173e0fe266edc26b40c05c02f02e33")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampusPlacementManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampusPlacementManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

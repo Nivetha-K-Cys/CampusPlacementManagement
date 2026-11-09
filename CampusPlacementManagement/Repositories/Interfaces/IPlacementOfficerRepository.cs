@@ -7,8 +7,8 @@ namespace CampusPlacementManagement.Repositories.Interfaces
     public interface IPlacementOfficerRepository
     {
         Task<IEnumerable<PlacementOfficer>> GetPendingOfficersAsync();
-        Task<PlacementOfficer> GetByIdAsync(int id);
-        Task<PlacementOfficer> GetByUserIdAsync(string userId);
+        Task<PlacementOfficer?> GetByIdAsync(int id);           // ? added here
+        Task<PlacementOfficer?> GetByUserIdAsync(string userId);
         Task AddAsync(PlacementOfficer officer);
         Task UpdateAsync(PlacementOfficer officer);
     }

@@ -35,6 +35,11 @@ namespace CampusPlacementManagement.Controllers
         public async Task<IActionResult> Approve(int id)
         {
             var adminUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(adminUserId))
+            {
+                return Unauthorized(new { message = "Admin user not found in token." });
+            }
+
             var success = await _officerService.ApproveOfficerAsync(id, adminUserId);
             if (!success) return NotFound(new { message = "Placement officer not found." });
             return Ok(new { message = "Placement officer approved successfully." });

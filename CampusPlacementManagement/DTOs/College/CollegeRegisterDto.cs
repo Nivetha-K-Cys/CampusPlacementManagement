@@ -6,29 +6,29 @@ namespace CampusPlacementManagement.DTOs.College
     {
         [Required]
         [MaxLength(200)]
-        public string CollegeName { get; set; }
+        public string CollegeName { get; set; } = string.Empty;
 
         [Required]
         [MaxLength(50)]
-        public string CollegeCode { get; set; }
+        public string CollegeCode { get; set; } = string.Empty;
 
         [MaxLength(200)]
-        public string UniversityName { get; set; }
+        public string? UniversityName { get; set; }
 
         [Required]
         [EmailAddress]
         [MaxLength(255)]
-        public string OfficialEmail { get; set; }
+        public string OfficialEmail { get; set; } = string.Empty;
 
         [Required]
         [MaxLength(20)]
-        public string PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; } = string.Empty;
 
         [Required]
         [MaxLength(500)]
-        public string Address { get; set; }
+        public string Address { get; set; } = string.Empty;
 
         [MaxLength(255)]
-        public string Website { get; set; }
+        public string? Website { get; set; }
     }
 }

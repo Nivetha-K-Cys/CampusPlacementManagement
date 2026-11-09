@@ -19,7 +19,7 @@ namespace CampusPlacementManagement.Repositories.Implementations
 
         public async Task<IEnumerable<College>> GetAllAsync() => await _context.Colleges.ToListAsync();
 
-        public async Task<College> GetByIdAsync(int id) => await _context.Colleges.FindAsync(id);
+        public async Task<College?> GetByIdAsync(int id) => await _context.Colleges.FindAsync(id);
 
         public async Task<IEnumerable<College>> GetPendingCollegesAsync() =>
             await _context.Colleges.Where(c => c.Status == "Pending").ToListAsync();

@@ -24,13 +24,13 @@ namespace CampusPlacementManagement.Repositories.Implementations
                 .Where(p => p.Status == "Pending")
                 .ToListAsync();
 
-        public async Task<PlacementOfficer> GetByIdAsync(int id) =>
+        public async Task<PlacementOfficer?> GetByIdAsync(int id) =>
             await _context.PlacementOfficers
-                .Include(p => p.College)
-                .Include(p => p.User)
-                .FirstOrDefaultAsync(p => p.PlacementOfficerId == id);
+             .Include(p => p.College)
+             .Include(p => p.User)
+             .FirstOrDefaultAsync(p => p.PlacementOfficerId == id);
 
-        public async Task<PlacementOfficer> GetByUserIdAsync(string userId) =>
+        public async Task<PlacementOfficer?> GetByUserIdAsync(string userId) =>
             await _context.PlacementOfficers
                 .Include(p => p.College)
                 .FirstOrDefaultAsync(p => p.UserId == userId);
